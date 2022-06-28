@@ -1,0 +1,14 @@
+.footer__design-logo {
+  background-image: url(../../../images/footer__logo-shishki.svg);
+  width: 27px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 1100px) {
+  .footer__design-logo {
+    margin-right: -1px;
+    margin-bottom: 7px;
+  }
+}

@@ -1,0 +1,11 @@
+.social-media {
+  background: #ECEBE8;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 800px) {
+  .social-media {
+    width: calc(100% - 2 * 60px);
+    margin: 0 auto 139px;
+  }
+}

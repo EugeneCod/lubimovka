@@ -1,0 +1,37 @@
+.social-media__item {
+  margin-right: 8px;
+  border-bottom: 1px solid #242424;
+  border-left: 1px solid #242424;
+  width: 53px;
+  height: 25px;
+  padding: 4px 12px 7px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: 300ms ease-in;
+  cursor: pointer;
+}
+
+.social-media__item:nth-of-type(3) {
+  padding: 4px 8px 7px 0;
+  width: 62px;
+}
+
+.social-media__item:last-of-type {
+  margin-right: 0;
+}
+
+.social-media__item:hover {
+  background-position: left;
+}
+
+.social-media__item:hover .social-media__link {
+  color: #fff;
+}
+
+.social-media__item:hover .social-media__arrow {
+  transition: 300ms ease-in;
+  filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
+}

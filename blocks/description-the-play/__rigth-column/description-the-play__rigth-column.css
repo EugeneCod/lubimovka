@@ -1,0 +1,4 @@
+.description-the-play__rigth-column {
+  display: flex;
+  flex-direction: column;
+}

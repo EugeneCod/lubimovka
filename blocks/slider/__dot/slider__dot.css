@@ -1,0 +1,11 @@
+.slider__dot {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-image: url(../../../images/dot.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.description-the-play__author-name {
+    min-width: 244px;
+    margin: 24px 0 0;
+    font-family: 'Neue Machina', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #242424;
+}
+
+.description-the-play__author-name:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+@media screen and (min-width: 1200px) {
+  .description-the-play__author-name {
+      margin-top: 17px;
+      min-width: 240px;
+  }
+}

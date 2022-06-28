@@ -1,0 +1,21 @@
+.preview-project__pic {
+  max-width: 100%;
+  grid-column: 2;
+  grid-row: 1/5;
+}
+
+@media screen and (max-width: 900px) {
+  .preview-project__pic {
+    grid-column: 1;
+    grid-row: 4;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .preview-project__pic {
+    max-width: 100%;
+    min-height: 450px;
+    object-fit: cover;
+  }
+}

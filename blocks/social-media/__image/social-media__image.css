@@ -1,0 +1,20 @@
+.social-media__image {
+  background-image: url('../../../images/section6mob.png');
+  height: 252.22px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 540px) {
+  .social-media__image {
+    background-image: url('../../../images/section6desk.png');
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .social-media__image {
+    height: 404px;
+  }
+}

@@ -1,0 +1,8 @@
+.slider__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 26px;
+    padding-right: 27px;
+    /*     min-height: 1114px; */
+}

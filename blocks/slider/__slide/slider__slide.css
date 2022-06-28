@@ -1,0 +1,12 @@
+.slider__slide {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transition: 0.5s ease transform;
+    box-sizing: border-box;
+}
+
+.slide.transition {
+    transition: 0.5s ease transform;
+}

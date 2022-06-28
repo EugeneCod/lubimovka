@@ -1,0 +1,15 @@
+.footer__partner-title {
+  color: #242424;
+  font-family: 'FormularLight';
+  font-size: 14px;
+  line-height: 1.43;
+  font-weight: 300;
+  font-feature-settings: 'ss01' on;
+  padding-left: 6px;
+}
+
+@media screen and (min-width: 1100px) {
+  .footer__partner-title {
+    display: none;
+  }
+}

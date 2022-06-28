@@ -1,0 +1,25 @@
+.footer__links {
+  max-width: 167px;
+  max-height: 180px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 13px 49px;
+  margin-bottom: 52px;
+  padding-left: 55px;
+}
+
+@media screen and (max-width: 370px) {
+  .footer__links {
+    max-height: none;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .footer__links {
+    max-height: 170px;
+    gap: 14px 101px;
+    margin-bottom: 0;
+  }
+}

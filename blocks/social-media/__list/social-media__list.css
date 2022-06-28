@@ -1,0 +1,9 @@
+.social-media__list {
+  display: flex;
+  margin: 10px 0 5px 0;
+}
+@media screen and (min-width: 800px) {
+  .social-media__list {
+    margin: -12px 0  0 4px;
+  }
+}

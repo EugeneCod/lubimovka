@@ -1,0 +1,13 @@
+  .slider-btn_part_circle {
+      stroke: #242424;
+      stroke-dasharray: 138.23007675795088 138.23007675795088;
+      stroke-dashoffset: 69.1150384;
+      transform-origin: center;
+      transform: rotate(-90deg);
+      stroke-width: 1px;
+      fill: transparent;
+      transition:
+          stroke-dashoffset .2s,
+          stroke-width .2s,
+          fill .1s .2s;
+  }

@@ -1,0 +1,10 @@
+.description-the-play {
+  display: grid;
+}
+
+@media screen and (min-width: 1100px) {
+  .description-the-play {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 68px;
+  }
+}

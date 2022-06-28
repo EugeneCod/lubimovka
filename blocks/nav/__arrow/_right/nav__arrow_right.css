@@ -1,0 +1,13 @@
+.nav__arrow_right {
+  width: 20px;
+  height: 20px;
+  display: none;
+  transform: rotate(180deg);
+  transition: .3s linear;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav__item:hover .nav__arrow_right {
+    display: block;
+  }
+} 

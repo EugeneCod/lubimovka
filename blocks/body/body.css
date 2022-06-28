@@ -1,0 +1,9 @@
+.body {
+  --main-text-color:#242424;
+  --main-bg-color:#ecebe8;
+  --main-accent-color:#b7c09d;
+  background: #ECEBE8;
+}
+.body.lock {
+  overflow: hidden;
+}

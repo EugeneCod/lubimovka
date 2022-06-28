@@ -1,0 +1,13 @@
+.description-the-play__info {
+    margin: 8px 0 0;
+    font-family: 'Formular', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #242424;
+}
+
+.description-the-play__info:nth-child(2n) {
+    margin: 0;
+}

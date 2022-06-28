@@ -1,0 +1,22 @@
+.nav__hamburger {
+  cursor: pointer;
+  margin-right: 14px;
+  transition: .3s linear;
+}
+
+.nav__hamburger:hover,
+.nav__hamburgers:focus {
+  transform: scale(1.1);
+} 
+
+@media screen and (max-width: 280px) {
+  .nav__hamburger {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .nav__hamburger {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+.nav__bar_position_middle {
+  width: 2rem;
+  margin: 0.7rem 0 0.7rem auto;
+}
+
+.active .nav__bar_position_middle {
+  opacity: 0;
+}

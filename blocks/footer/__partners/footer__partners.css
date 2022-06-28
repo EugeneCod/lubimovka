@@ -1,0 +1,19 @@
+.footer__partners {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  row-gap: 40px;
+  padding-left: 22px;
+}
+
+@media screen and (min-width: 1100px) {
+  .footer__partners {
+    max-width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 7px;
+    gap: 28px;
+  }
+}

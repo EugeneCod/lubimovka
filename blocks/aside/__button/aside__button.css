@@ -1,0 +1,36 @@
+.aside__button {
+  margin: 32px 0 0 30px; 
+  border: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424; 
+  outline: none; 
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #242424; 
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: 300ms ease-in;
+}
+
+.aside__button:hover {
+  color: #fff;
+  background-position: left;
+}
+
+.aside__button:active {
+  transform: scale(1.1);
+  transition: .1s linear;
+}
+
+.aside__button:hover .aside__arrow {
+  transition: 300ms ease-in; 
+  filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
+}  

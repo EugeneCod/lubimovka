@@ -1,0 +1,21 @@
+.footer__projects-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 13px;
+  padding-bottom: 84.54px;
+  padding-left: 55px;
+}
+
+@media screen and (max-width: 370px) {
+  .footer__projects-links {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .footer__projects-links {
+    gap: 14px;
+    padding-bottom: 49px;
+  }
+}

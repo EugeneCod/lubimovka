@@ -1,0 +1,11 @@
+.social-media__content {
+  margin: 24.78px auto 0;
+  width: calc(100% - 2 * 26px);
+}
+
+@media screen and (min-width: 800px) {
+  .social-media__content {
+    margin-top: 52px;
+    max-width: 666px;
+  }
+}

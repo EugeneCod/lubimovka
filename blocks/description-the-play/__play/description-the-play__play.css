@@ -1,0 +1,20 @@
+.description-the-play__play {
+    background: #ECEBE8;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .description-the-play__play {
+        padding: 0 80px 0;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .description-the-play__play {
+        background-color: #ECEBE8;
+        padding: 0;
+    }
+}

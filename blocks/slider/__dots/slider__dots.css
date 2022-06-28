@@ -1,0 +1,10 @@
+.slider__dots {
+    margin-top: 24px;
+    margin-bottom: 1px;
+    display: inline-block;
+    transform: translateX(0);
+}
+
+.slider__dots:first-child {
+    margin-left: -8px;
+}

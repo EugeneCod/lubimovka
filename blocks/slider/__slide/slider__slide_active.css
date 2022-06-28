@@ -1,0 +1,4 @@
+.slider__slide_active {
+    z-index: 1;
+    transform: translateX(0);
+}

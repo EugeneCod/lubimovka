@@ -1,0 +1,25 @@
+.preview-project__data-container {
+    align-self: center;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1300px) {
+    .preview-project__data-container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .preview-project__data-container {
+        justify-self: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .preview-project__data-container {
+        margin-top: 0px;
+        margin-bottom: 38px;
+        justify-self: center;
+    }
+}

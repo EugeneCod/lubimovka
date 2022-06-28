@@ -1,0 +1,9 @@
+.social-media__link {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #242424;
+}

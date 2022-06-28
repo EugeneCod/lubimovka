@@ -1,0 +1,6 @@
+.slider-btn_part_svg {
+    width: 48px;
+    height: 48px;
+    grid-area: 1/2 / 1/2;
+    background-color: #ECEBE8;
+}

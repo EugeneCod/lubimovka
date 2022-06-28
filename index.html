@@ -2,72 +2,444 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
-    rel="stylesheet">
-  <title>Портфолио Junior верстальщика</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!-- Библиотека для Слайдера в Section 5 -->
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>Любимовка</title>
 </head>
 
-<body>
-  <header class="page-header">
-    <div class="container">
-      <a class="header-email" href="mailto:eugene_korobkin@mail.ru">eugene_korobkin@mail.ru</a>
-      <a class="header-phone" href="tel:+79375450300">+79375450300</a>
-    </div>
+<body class="body">
+  <!-- Header -->
+  <header class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+      <!-- Nav header -->
+      <div class="nav__header">
+        <img src="./images/header/logo.svg" class="nav__logo" alt="Логотип: Любимовка" />
+        <button type="button" class="nav__projects-button">
+          Проекты
+          <img class="nav__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов" />
+        </button>
+        <!-- Hamburger menu -->
+        <div class="nav__hamburger">
+          <div class="nav__bar nav__bar_position_top"></div>
+          <div class="nav__bar nav__bar_position_middle"></div>
+          <div class="nav__bar nav__bar_position_bottom"></div>
+        </div>
+      </div>
+      <!-- Links -->
+      <ul class="nav__list">
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Афиша</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Библиотека</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Проекты</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">История</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Блог</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Новости</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">О фестивале</a>
+        </li>
+        <li class="nav__item nav__item_vertical-line">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Контакты</a>
+        </li>
+        <!-- Social links -->
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">fb</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">inst</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">ytube</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">tlgrm</a>
+        </li>
+        <li class="nav__item nav__item_vertical-line">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">vk</a>
+        </li>
+        <!-- + Button -->
+        <li class="nav__item">
+          <button type="button" class="nav__button">
+            <img src="./images/header/plus.svg" alt="Kнопка: Поддержать">
+            Поддержать
+          </button>
+        </li>
+      </ul>
+    </nav>
   </header>
-
-  <div class="container">
-    <section class="hero-image">
-      <h1 class="heading">Неопознанный Енот</h1>
-      <p>Junior верстальщик</p>
+  <!-- Projects button -->
+  <aside class="aside">
+    <button type="button" class="aside__button">
+      Проекты
+      <img class="aside__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов">
+    </button>
+  </aside>
+  <main>
+    <!-- секция 1-->
+    <section class="preview-project">
+      <h1 class="preview-project__title">С_училища</h1>
+      <h2 class="preview-project__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
+        преподавателя философии.</h2>
+      <div class="preview-project__data-container">
+        <time class="preview-project__data">12 мая 20:00</time>
+        <button class="preview-project__btn">
+          <p class="preview-project__btn-text">Билеты</p>
+          <img class="preview-project__btn-union" src="./images/union-right.svg" alt="стрелка">
+        </button>
+      </div>
+      <img class="preview-project__pic" src="./images/preview-project-pic.png" alt="Девушка в вуали">
+      <p class="preview-project__pic-text">Семён Серзин сделал читку этой пьесы в рамках основной программы
+        Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
+        Пушкина принял спектакль в репертуар.</p>
     </section>
-  </div>
-  <div class="container">
-    <section class="intro">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <figure class="user-image">
-        <img src="files/user2.JPG" width="928" alt="моя фотография">
-      </figure>
-      <h3>Пара слов о себе</h3>
-      <p>Текст с парой слов о себе.</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Текст о том, чем могу быть полезен.</p>
-      <div class="skills">
-        <h3>Мои навыки</h3>
-        <dl class="skills-list">
-          <dt class="skill-html">HTML</dt>
-          <dd class="level">
-            <div style="width: 60%">60%</div>
-          </dd>
-          <dt class="skill-css">CSS</dt>
-          <dd class="level">
-            <div style="width: 40%">40%</div>
-          </dd>
-        </dl>
+    <!-- секция 2-->
+    <section class="description-the-play" aria-label="Описание пьесы">
+      <section class="working-staff" aria-label="Продолжительность, возрастное ограничение и участники пьесы">
+        <div class="working-staff__top-container">
+          <p class="working-staff__duration">1 ч. 15 мин.</p>
+          <p class="working-staff__age-limit">18+</p>
+        </div>
+        <ul class="working-staff__list">
+          <li class="working-staff__list-item">
+            <p class="working-staff__post">Драматург</p>
+            <p class="working-staff__name">Роберт Аскинс</p>
+          </li>
+          <li class="working-staff__list-item">
+            <p class="working-staff__post">Перевод</p>
+            <p class="working-staff__name">Оксана Алёшина</p>
+          </li>
+          <li class="working-staff__list-item">
+            <p class="working-staff__post">Адаптация текста</p>
+            <p class="working-staff__name">Валерий Печейкин</p>
+          </li>
+          <li class="working-staff__list-item">
+            <p class="working-staff__post">Режиссёр</p>
+            <p class="working-staff__name">Юрий Муравицкий</p>
+          </li>
+          <li class="working-staff__list-item">
+            <p class="working-staff__post">Актёры</p>
+            <p class="working-staff__name">Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин, Владимир
+              Морозов, Светлана Маршанкина</p>
+          </li>
+        </ul>
+      </section>
+      <div class="description-the-play__rigth-column">
+        <article class="video" aria-label="Видео">
+          <div class="video__container">
+            <button type="button" class="video__play-button"></button>
+            <video
+              src="https://player.vimeo.com/external/527275561.sd.mp4?s=e23b4455249edf7672156bb17ce9a6e0ebeff7ba&profile_id=139&oauth2_token_id=57447761"
+              poster="./images/video__poster.jpg" class="video__element">
+            </video>
+          </div>
+        </article>
+        <div class="description-the-play__text-block">
+          <p class="description-the-play__text">Пьеса «Длань Господня» (Hand to God) — лауреат американской театральной
+            премии OBIE (Off-Broadway Theater Awards), номинант ежегодно присуждаемой премии TONY (Theatre Of New York),
+            театрального аналога «Оскара», и номинант на Британскую премию Лоуренса Оливье в качестве «Лучшей Новой
+            Комедии». Она была поставлена в бродвейских театрах и в лондонском Вест-Энде.</p>
+          <p class="description-the-play__text">Этот спектакль – результат коллаборации фестиваля драматургии
+            «Любимовка»,
+            который запустил проект по выпуску собственных спектаклей «Любимовка.Продакшн», Театра 18+ и Театра.doc.
+            Исполнители – выпускники актерской лаборатории Юрия Муравицкого Московской Школы Нового Кино.</p>
+          <p class="description-the-play__text">Режиссёр спектакля Юрий Муравицкий – лауреат Национальной театральной
+            премии «Золотая маска», лауреат премий Herald Angel Award и Total Theatre Award в номинации Innovation,
+            Experimentation & Playing with Form на Edinburgh Festival Fringe: «В этой пьесе меня задевает её смелость и
+            свобода. И то, что она написана смешно. Мне сейчас интересны комедии. В январе я выпустил «Lё Тартюф.
+            Комедия» в театре на Таганке — тоже комедию и тоже в известном смысле антиклерикальную. У меня есть стойкое
+            ощущение что всему, что сейчас происходит в нашей стране и в мире, мы можем противопоставить только смех.
+            Иногда горький смех, иногда злой. Сейчас в воздухе столько ненависти, что нам всем полезно больше смеяться.
+            И над собой в том числе. «Длань Господня» — это чёрная комедия. Помимо прочего, она показывает к чему
+            приводит навязывание и насильственное насаждение религии».</p>
+          <p class="description-the-play__text">Пьеса была успешно представлена в России в формате читки в 2016 году
+            рамках
+            лаборатории LARK+Любимовка на сцене Центра им. Мейерхольда.</p>
+        </div>
+        <div class="description-the-play__play">
+          <h2 class="description-the-play__subtitle">Почитать пьесу</h2>
+          <div class="description-the-play__card">
+            <div class="description-the-play__card-content">
+              <p class="description-the-play__card-name">Конкретные разговоры пожилых супругов ни о чём</p>
+              <div class="description-the-play__btn-group">
+                <button class="description-the-play__card-watch" type="button">СМОТРЕТЬ ЧИТКУ
+                  <svg class="description-the-play__arrow-45"></svg>
+                </button>
+                <button class="description-the-play__card-watch" type="button">СКАЧАТЬ ПЬЕСУ
+                  <svg class="description-the-play__arrow-down"></svg>
+                </button>
+              </div>
+              <p class="description-the-play__author-name">Екатерина Августеняк</p>
+              <p class="description-the-play__info">Санкт-Петербург</p>
+              <p class="description-the-play__info">2020</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-  </div>
-  <div class="container">
-    <section class="portfolio">
-      <h2 class="subheading">Мои работы</h2>
-      <figure>
-        <img src="files/project.jpg" width="928" height="536" alt="Сайт магазина товаров для дома">
-      </figure>
-      <h3>Магазин товаров для дома</h3>
-      <p>Мой первый сайт.</p>
-      <a class="button" href="source\project\index.html">Открыть страницу</a>
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
+    <!-- секция 3-->
+    <section class="gallery">
+      <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
+      <ul class="gallery__items">
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item2.png" alt="Актриса">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item3.png" alt="Актер">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item4.png" alt="Музыкальная группа">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item5.png" alt="Собрание">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item6.png" alt="Девушка">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item7.png" alt="Люди на репетиции">
+        </li>
+        <li class="gallery__item">
+          <img class="gallery__image" src="./images/gallery__item8.png" alt="девушка">
+        </li>
+      </ul>
     </section>
-  </div>
-  <div class="container"></div>
-  <footer class="page-footer">
-    <a class="footer-email" href="mailto:eugene_korobkin@mail.ru">eugene_korobkin@mail.ru</a>
-    <a class="footer-phone" href="tel:+79375450300">+79375450300</a>
+    <!-- секция 4-->
+    <section class="slider" >
+      <div class="slider__title-container">
+        <h6 class="title-h6">Рецензии</h6>
+        <div class="buttons slider__button-container">
+          <button class="prev slider-btn slider-btn_type_back" type="button">
+            <svg class=" slider-btn_part_svg">
+              <circle class="slider-btn_part_circle" cx="24" cy="24" r="22"></circle>
+            </svg>
+            <img src="./images/arrow.svg" alt="стрелка" class="slider-btn_part_arrow">
+          </button>
+          <button class="next slider-btn " type="button">
+            <svg class=" slider-btn_part_svg">
+              <circle class="slider-btn_part_circle" cx="24" cy="24" r="22"></circle>
+            </svg>
+            <img src="./images/arrow.svg" alt="стрелка" class="slider-btn_part_arrow">
+          </button>
+        </div>
+      </div>
+      <div class="slider__container">
+        <div class="slider__dots button"></div>
+        <div >
+          <div class="slider__slide slider__slide_active">
+            <div class="slider__content">
+              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+   <!--           <button class="slider__more">
+               <img 
+                 class="slider__more_part_arrow" 
+                 src="./images/arrow-svg.svg" 
+                 alt="Читать дальше" 
+               />
+              Читать дальше
+            </button> -->
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="slider__content">
+              <img src="./images/sobaka.svg" alt="Название источника" class="slider__author" >
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. </p>
+             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="slider__content">
+              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="slider__content">
+              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+            </div>
+          </div>
+        </div>
+
+        </div>
+       
+      </section>
+    <!-- секция 5-->
+    <section class="slider-comments">
+      <div class="slider-comments__header">
+        <h2 class="slider-comments__title">Отзывы зрителей</h2>
+        <div class="slider-comments__buttons">
+          <img class="slider-comments__button slider-comments__button_prev" src="./images/Arrow-last.svg" alt="Назад" />
+          <img class="slider-comments__button slider-comments__button_next" src="./images/Arrow-next.svg"
+            alt="Вперед" />
+        </div>
+      </div>
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <p class="swiper-slide__text">
+              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+              про коня Боджэка возникает — я думаю, и пьеса написана с этой
+              интонацией американских взрослых мультсериалов. И как хорошо все
+              это с куклой-носочком. Так все чисто сделано!
+            </p>
+            <h3 class="swiper-slide__author">Наталья Зайцева</h3>
+          </li>
+          <li class="swiper-slide">
+            <p class="swiper-slide__text">
+              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+              про коня Боджэка возникает — я думаю, и пьеса написана с этой
+              интонацией американских взрослых мультсериалов. И как хорошо все
+              это с куклой-носочком. Так все чисто сделано!
+            </p>
+            <h3 class="swiper-slide__author">Ашот</h3>
+          </li>
+          <li class="swiper-slide">
+            <p class="swiper-slide__text">
+              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+              про коня Боджэка возникает — я думаю, и пьеса написана с этой
+              интонацией американских взрослых мультсериалов. И как хорошо все
+              это с куклой-носочком. Так все чисто сделано!
+            </p>
+            <h3 class="swiper-slide__author">Сергеевич</h3>
+          </li>
+          <li class="swiper-slide">
+            <p class="swiper-slide__text">
+              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+              про коня Боджэка возникает — я думаю, и пьеса написана с этой
+              интонацией американских взрослых мультсериалов. И как хорошо все
+              это с куклой-носочком. Так все чисто сделано!
+            </p>
+            <h3 class="swiper-slide__author">Петрович</h3>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- секция 6-->
+    <section class="social-media">
+      <div class="social-media__image"></div>
+      <div class="social-media__content">
+        <div class="social-media__list-container">
+          <p class="social-media__text">Рассказать</p>
+          <ul class="social-media__list">
+            <li class="social-media__item">
+              <img class="social-media__arrow" src="./images/arrow-right.svg" alt="стрелка">
+              <a class="social-media__link" href="#">fb</a>
+            </li>
+            <li class="social-media__item">
+              <img class="social-media__arrow" src="./images/arrow-right.svg" alt="стрелка">
+              <a class="social-media__link" href="#">vk</a>
+            </li>
+            <li class="social-media__item">
+              <img class="social-media__arrow" src="./images/arrow-right.svg" alt="стрелка">
+              <a class="social-media__link" href="#">twtr</a>
+            </li>
+          </ul>
+        </div>
+        <p class="social-media__text">о спектакле в&nbsp;соцсетях</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__about-us">
+        <div class="footer__logo"></div>
+        <address class="footer__address">
+          <p class="footer__address-title">Площадка «8/3»</p>
+          <p class="footer__address-subtitle">Москва, ул.&nbsp;Казакова,&nbsp;8,&nbsp;стр.&nbsp;3 Метро&nbsp;«Курская»
+          </p>
+        </address>
+        <nav class="footer__nav">
+          <ul class="footer__links">
+            <li class="footer__item"><a class="footer__link" href="#">Любимовка</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Афиша</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Библиотека</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Блог</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Новости</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">О фестивале</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Организаторы</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">История</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Для прессы</a></li>
+          </ul>
+          <ul class="footer__projects-links">
+            <li class="footer__item"><a class="footer__link" href="#">Все проекты</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Любимовка.Ещё</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Спектакли</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Сборник Любимовка.Пьесы</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Lark+Любимовка</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Практика постдраматурга</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Эхо Любимовки</a></li>
+          </ul>
+        </nav>
+        <ul class="footer__partners">
+          <li class="footer__partners-header">Генеральные партнеры</li>
+          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-1.png"
+              alt="Лого фонда Михаила Прохорова">
+            <h3 class="footer__partner-title">Генеральный партнёр</h3>
+          </li>
+          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-2.png"
+              alt="Лого организации Мосбрю"></li>
+          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-3.png"
+              alt="Лого организации СБТГ">
+            <h3 class="footer__partner-title">Онлайн-трансляции</h3>
+          </li>
+          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-4.png"
+              alt="Лого А поговорить?.."></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__tech-info">
+      <small class="footer__copyright">&copy; Любимовка, 2021</small>
+      <a class="footer__policy" href="#">Политика конфиденциальности</a>
+      <div class="footer__design">
+        <div class="footer__design-logo"></div>
+        <p class="footer__design-text">дизайн сайта —
+          <a class="footer__design-link" href="#">shishki.collective</a>
+        </p>
+      </div>
+      <p class="footer__authors">вёрстка и разработка — студенты
+        <a class="footer__authors-link" href="#">Яндекс.Практикума</a>
+      </p>
+    </div>
   </footer>
-  </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script type="module" src="./pages/index.js"></script>
 </body>
 
 </html>

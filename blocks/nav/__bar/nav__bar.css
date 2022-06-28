@@ -1,0 +1,6 @@
+.nav__bar {
+  width: 2.5rem;
+  height: 0.2rem;
+  background-color: #242424;
+  transition: .3s linear;
+}

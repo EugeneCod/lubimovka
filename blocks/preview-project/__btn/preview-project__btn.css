@@ -1,0 +1,45 @@
+.preview-project__btn {
+  margin-bottom: 38px;
+  padding: 16px 16px 18px;
+  width: 240px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  outline: none;
+  box-shadow: inset 0 0 0 0#ECEBE8;
+  cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+.preview-project__btn:hover {
+  box-shadow: inset 240px 0 0 0 #000;
+}
+
+.preview-project__btn:active {
+  transform: scale(1.1);
+  transition: .1s linear;
+}
+
+.preview-project__btn:hover .preview-project__btn-text {
+  color: #fff;
+}
+
+.preview-project__btn:hover .preview-project__btn-union {
+  transition: 300ms ease-in;
+  filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
+}
+
+@media screen and (max-width: 415px) {
+  .preview-project__btn {
+    margin-left: 20.55%;
+    margin-bottom: 38px;
+    padding: 16px 16px 18px;
+    width: 240px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    transition: background-color .3s;
+  }
+}

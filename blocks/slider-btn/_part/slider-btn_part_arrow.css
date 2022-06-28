@@ -1,0 +1,8 @@
+.slider-btn_part_arrow {
+    grid-area: 1/2 / 1/2;
+    z-index: 1;
+    position: relative;
+    transition: filter .1s .2s;
+    width: 21px;
+    height: 13px;
+}

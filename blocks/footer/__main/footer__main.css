@@ -1,0 +1,10 @@
+.footer__main {
+  max-width: 414px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1100px) {
+  .footer__main {
+    max-width: 1440px;
+  }
+}

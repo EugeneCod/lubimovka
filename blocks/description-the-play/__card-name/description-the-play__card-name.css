@@ -1,0 +1,24 @@
+.description-the-play__card-name {
+    padding: 16px 0 117px 16px;
+    margin: 0;
+    font-family: 'Neue Machina', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #242424;
+    letter-spacing: -0.01em;
+    max-width: 200px;
+    min-height: 187px;
+}
+
+@media screen and (min-width: 1200px) {
+    .description-the-play__card-name {
+        padding-top: 24px;
+        padding-right: 31px;
+        padding-left: 24px;
+        padding-bottom: 0;
+        max-width: none;
+        width: 100%;
+    }
+}

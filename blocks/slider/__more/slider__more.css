@@ -1,0 +1,18 @@
+.slider__more {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #242424;
+    cursor: pointer;
+    margin: 25px 0 28px 0;
+    transition: all .3s ease-in-out;
+    padding: 0px 12px 0px 0px;
+    background-color: transparent;
+}
+
+.slider__more:hover,
+.slider__more:focus {
+    transform: scale(1.1);
+}

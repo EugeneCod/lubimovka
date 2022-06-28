@@ -1,0 +1,41 @@
+.description-the-play__card-watch {
+    padding: 0 20px 0 16px;
+    margin: 0;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-family: 'Formular', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.38;
+    background-color: transparent;
+    border-top: 1px solid #242424;
+    background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+    background-size: 200%;
+    transition: 0.8s;
+}
+
+.description-the-play__card-watch:hover {
+    background-color: #242424;
+    color: #fff;
+    cursor: pointer;
+    background-position: left;
+}
+
+.description-the-play__card-watch:hover .description-the-play__arrow-down {
+    filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
+}
+
+.description-the-play__card-watch:hover .description-the-play__arrow-45 {
+    filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
+}
+
+@media screen and (min-width: 1200px) {
+    .description-the-play__card-watch {
+        padding-right: 16px;
+    }
+}
