@@ -1,4 +1,4 @@
-import { toggleNav, closeNav, toggleHeader } from '../scripts/components/nav.js';
+import { toggleNav, closeNav } from '../scripts/components/nav.js';
 import { Slider } from '../scripts/components/Slider.js';        
 
 

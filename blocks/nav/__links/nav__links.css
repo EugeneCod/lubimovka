@@ -21,3 +21,10 @@
     row-gap: 2px;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .nav__links {
+    grid-auto-flow: row;
+    row-gap: 2px;
+  }
+}
