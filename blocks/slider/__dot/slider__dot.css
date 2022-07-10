@@ -1,7 +1,8 @@
 .slider__dot {
+  box-sizing: border-box;
   cursor: pointer;
-  height: 4px;
-  width: 4px;
+  height: 6px;
+  width: 6px;
   margin-right: 16px;
   background-color: transparent;
   border: 1px solid #242424;

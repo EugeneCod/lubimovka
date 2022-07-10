@@ -1,6 +1,9 @@
 .social-media {
   background: #ECEBE8;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 800px) {

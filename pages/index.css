@@ -6,6 +6,8 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_fixed/header_fixed.css);
 
+@import url(../blocks/content/content.css);
+
 @import url(../blocks/button-small/button-small.css);
 @import url(../blocks/button-small/__image/button-small__image.css);
 @import url(../blocks/button-small/__text/button-small__text.css);

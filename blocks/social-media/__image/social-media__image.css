@@ -2,6 +2,7 @@
   background-image: url('../../../images/section6mob.png');
   height: 252.22px;
   width: 100%;
+  max-width: 1440px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
