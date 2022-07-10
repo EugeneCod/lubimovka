@@ -1,0 +1,14 @@
+.nav__button-back {
+  width: 120px;
+  height: 31px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  justify-self: start;
+}
+
+@media (max-width: 1300px) {
+  .nav__button-back {
+    position: initial;
+  }
+}

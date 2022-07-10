@@ -1,0 +1,4 @@
+.slider__btn_inactive {
+  opacity: .5;
+  pointer-events: none;
+}

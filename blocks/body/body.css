@@ -2,8 +2,13 @@
   --main-text-color:#242424;
   --main-bg-color:#ecebe8;
   --main-accent-color:#b7c09d;
-  background: #ECEBE8;
+  background: #ecebe8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
 }
+
 .body.lock {
   overflow: hidden;
 }

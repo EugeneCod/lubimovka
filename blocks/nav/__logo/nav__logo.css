@@ -4,6 +4,7 @@
   margin-left: 14px; 
   cursor: pointer;
   transition: .3s linear;
+  margin-right: 30px;
 }
 
 .nav__logo:hover,

@@ -1,0 +1,22 @@
+.slider__top-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 118px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 0 25px;
+  width: 100%;
+  max-width: 718px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+  .slider__top-row {
+    margin-bottom: 36px;
+    grid-template-columns: max-content 1fr 118px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+

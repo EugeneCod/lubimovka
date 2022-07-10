@@ -16,11 +16,6 @@
   box-shadow: inset 240px 0 0 0 #000;
 }
 
-.preview-project__btn:active {
-  transform: scale(1.1);
-  transition: .1s linear;
-}
-
 .preview-project__btn:hover .preview-project__btn-text {
   color: #fff;
 }

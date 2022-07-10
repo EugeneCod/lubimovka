@@ -1,0 +1,31 @@
+.button-small {
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+  background: linear-gradient(90deg, transparent 0% 50%, #242424 50% 100%);
+  background-size: 200% 100%;
+  background-position: 0 100%;
+  transition:
+    background-position .4s,
+    box-shadow .2s;
+}
+  
+.button-small:hover {
+  background-position: -100% 100%;
+}
+
+.button-small:active {
+  box-shadow: 
+    1px -2px 0px 2px #242424,
+    -2px -2px 0px 2px #242424;
+}
+
+.button-small:hover .button-small__text {
+  color: white;
+}
+.button-small:hover .button-small__arrow {
+  filter: invert(100%);
+}

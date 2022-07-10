@@ -1,0 +1,20 @@
+.slider__item {
+  box-sizing: border-box;
+  padding: 77px 25px 72px;
+  background-color: #fff;
+  max-width: 718px;
+  transition: transform3d .5s;
+  flex-shrink: 0;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.slider__item:last-child {
+  margin-right: 0px;
+}
+
+@media (min-width: 769px) {
+  .slider__item {
+    padding: 55px 88px 72px;
+  }
+}

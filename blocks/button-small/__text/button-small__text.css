@@ -1,0 +1,11 @@
+.button-small__text {
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 0.875;
+  color: #242424;
+  text-transform: uppercase;
+  margin-right: 5px;
+  transition: color .3s;
+}

@@ -1,0 +1,16 @@
+.nav__burger_active span{
+  /* transform: scale(0); */
+  visibility: hidden;
+}
+
+.nav__burger_active span::before {
+  transform: rotate(45deg);
+  top: 0px;
+  visibility: visible;
+}
+
+.nav__burger_active span::after {
+  transform: rotate(-45deg);
+  top: 0px;
+  visibility: visible;
+}

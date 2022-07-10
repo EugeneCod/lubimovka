@@ -1,0 +1,5 @@
+.slider__track {
+  display: flex;
+  max-width: 718px;
+  width: 100%;
+}

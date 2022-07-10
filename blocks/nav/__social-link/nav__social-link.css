@@ -1,0 +1,19 @@
+.nav__social-link {
+  text-decoration: none;
+  color: #242424;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.375;
+  display: block;
+  transition: opacity .2s linear;
+}
+
+.nav__social-link:hover {
+  opacity: .7;
+}
+
+.nav__social-link:active {
+  opacity: .5;
+}

@@ -1,8 +1,6 @@
 .slider {
-    position: relative;
-    box-sizing: border-box;
-    min-height: 1144px;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    background: linear-gradient(to bottom, var(--main-bg-color) 70px, white 70px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

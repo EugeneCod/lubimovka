@@ -17,89 +17,41 @@
       <!-- Nav header -->
       <div class="nav__header">
         <img src="./images/header/logo.svg" class="nav__logo" alt="Логотип: Любимовка" />
-        <button type="button" class="nav__projects-button">
-          Проекты
-          <img class="nav__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов" />
+        <button type="button" class="button-small nav__button-back">
+          <p class="button-small__text">Проекты</p>
+          <img class="button-small__image" src="./images/header/arrow-left.svg" alt="Назад" />
         </button>
         <!-- Hamburger menu -->
-        <div class="nav__hamburger">
-          <div class="nav__bar nav__bar_position_top"></div>
-          <div class="nav__bar nav__bar_position_middle"></div>
-          <div class="nav__bar nav__bar_position_bottom"></div>
+        <div class="nav__burger">
+          <span></span>
         </div>
       </div>
       <!-- Links -->
-      <ul class="nav__list">
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">Афиша</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">Библиотека</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">Проекты</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">История</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">Блог</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">Новости</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">О фестивале</a>
-        </li>
-        <li class="nav__item nav__item_vertical-line">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">Контакты</a>
-        </li>
-        <!-- Social links -->
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">fb</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">inst</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">ytube</a>
-        </li>
-        <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">tlgrm</a>
-        </li>
-        <li class="nav__item nav__item_vertical-line">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
-          <a class="nav__link" href="#">vk</a>
-        </li>
-        <!-- + Button -->
-        <li class="nav__item">
-          <button type="button" class="nav__button">
-            <img src="./images/header/plus.svg" alt="Kнопка: Поддержать">
-            Поддержать
-          </button>
-        </li>
-      </ul>
+      <div class="nav__container">
+        <ul class="nav__links">
+          <li class="nav__item"><a class="nav__link" href="#">Афиша</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Библиотека</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Проекты</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">История</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">О фестивале</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+        </ul>
+        <ul class="nav__social">
+          <li class="nav__item"><a class="nav__social-link" href="#">fb</a></li>
+          <li class="nav__item"><a class="nav__social-link" href="#">inst</a></li>
+          <li class="nav__item"><a class="nav__social-link" href="#">ytube</a></li>
+          <li class="nav__item"><a class="nav__social-link" href="#">tlgrm</a></li>
+          <li class="nav__item"><a class="nav__social-link" href="#">vk</a></li>
+        </ul>
+        <button type="button" class="nav__item nav__button">
+          <img src="./images/header/plus.svg" alt="Kнопка: Поддержать">
+          Поддержать
+        </button>
+      </div>
     </nav>
   </header>
-  <!-- Projects button -->
-  <aside class="aside">
-    <button type="button" class="aside__button">
-      Проекты
-      <img class="aside__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов">
-    </button>
-  </aside>
   <main>
     <!-- секция 1-->
     <section class="preview-project">
@@ -233,109 +185,105 @@
       </ul>
     </section>
     <!-- секция 4-->
-    <section class="slider" >
-      <div class="slider__title-container">
-        <h6 class="title-h6">Рецензии</h6>
-        <div class="buttons slider__button-container">
-          <button class="prev slider-btn slider-btn_type_back" type="button">
-            <svg class=" slider-btn_part_svg">
-              <circle class="slider-btn_part_circle" cx="24" cy="24" r="22"></circle>
-            </svg>
-            <img src="./images/arrow.svg" alt="стрелка" class="slider-btn_part_arrow">
-          </button>
-          <button class="next slider-btn " type="button">
-            <svg class=" slider-btn_part_svg">
-              <circle class="slider-btn_part_circle" cx="24" cy="24" r="22"></circle>
-            </svg>
-            <img src="./images/arrow.svg" alt="стрелка" class="slider-btn_part_arrow">
-          </button>
-        </div>
-      </div>
-      <div class="slider__container">
-        <div class="slider__dots button"></div>
-        <div >
-          <div class="slider__slide slider__slide_active">
-            <div class="slider__content">
-              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
-              <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
-            </div>
+    <section class="reviews">
+      <div class="slider">
+        <div class="slider__top-row">
+          <h2 class="slider__title">Рецензии</h2>
+          <div class="slider__dots">
+            <span class="slider__dot"></span>
+            <span class="slider__dot"></span>
+            <span class="slider__dot"></span>
+            <span class="slider__dot"></span>
           </div>
-          <div class="slider__slide">
-            <div class="slider__content">
-              <img src="./images/sobaka.svg" alt="Название источника" class="slider__author" >
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. </p>
-              <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
-            </div>
-          </div>
-          <div class="slider__slide">
-            <div class="slider__content">
-              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
-              <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
-            </div>
-          </div>
-          <div class="slider__slide">
-            <div class="slider__content">
-              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
-              <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
-            </div>
+          <div class="slider__btns">
+            <button class="slider__btn" type="button">
+              <svg class="slider__btn-svg">
+                <circle class="slider__btn-circle slider__btn-circle_left" cx="24" cy="24" r="22"></circle>
+              </svg>
+              <img src="./images/arrow-left.svg" alt="стрелка" class="slider__btn-arrow">
+            </button>
+            <button class="slider__btn" type="button">
+              <svg class="slider__btn-svg">
+                <circle class="slider__btn-circle slider__btn-circle_right" cx="24" cy="24" r="22"></circle>
+              </svg>
+              <img src="./images/arrow-right.svg" alt="стрелка" class="slider__btn-arrow">
+            </button>
           </div>
         </div>
+        <div class="slider__track">
+          <article class="slider__item">
+            <img src="./images/reviews__logo-1.svg" alt="Нью-Йорк Таймс" class="slider__logo-heading">
+            <p class="slider__text">
+              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного
+              героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно
+              умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+              контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере
+              накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает
+              прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не
+              сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные
+              импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
+            </p>
+            <a href="#" class="slider__link button-small">
+              <img src="./images/arrow__top-right.svg" class="button-small__image" alt="Стрелка">
+              <p class="button-small__text">Читать полностью</p>
+            </a>
+          </article>
+          <article class="slider__item slider__item_offset">
+            <img src="./images/reviews__logo-2.svg" alt="Нью-Йорк Таймс" class="slider__logo-heading">
+            <p class="slider__text slider__text_concise">
+              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного
+              героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно
+              умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+              контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере
+              накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает
+              прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не
+              сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные
+              импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
+            </p>
+            <a href="#" class="slider__link button-small">
+              <img src="./images/arrow__top-right.svg" class="button-small__image" alt="Стрелка">
+              <p class="button-small__text">Читать полностью</p>
+            </a>
+          </article>
+          <article class="slider__item slider__item_offset">
+            <img src="./images/reviews__logo-1.svg" alt="Нью-Йорк Таймс" class="slider__logo-heading">
+            <p class="slider__text slider__text_concise">
+              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного
+              героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно
+              умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+              контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере
+              накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает
+              прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не
+              сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные
+              импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
+            </p>
+            <a href="#" class="slider__link button-small">
+              <img src="./images/arrow__top-right.svg" class="button-small__image" alt="Стрелка">
+              <p class="button-small__text">Читать полностью</p>
+            </a>
+          </article>
+          <article class="slider__item slider__item_offset">
+            <img src="./images/reviews__logo-1.svg" alt="Нью-Йорк Таймс" class="slider__logo-heading">
+            <p class="slider__text slider__text_concise">
+              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного
+              героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно
+              умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+              контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере
+              накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает
+              прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не
+              сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные
+              импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
+            </p>
+            <a href="#" class="slider__link button-small">
+              <img src="./images/arrow__top-right.svg" class="button-small__image" alt="Стрелка">
+              <p class="button-small__text">Читать полностью</p>
+            </a>
+          </article>
+        </div>
       </div>
-      </section>
+    </section>
     <!-- секция 5-->
-    <section class="slider-comments">
-      <div class="slider-comments__header">
-        <h2 class="slider-comments__title">Отзывы зрителей</h2>
-        <div class="slider-comments__buttons">
-          <img class="slider-comments__button slider-comments__button_prev" src="./images/Arrow-last.svg" alt="Назад" />
-          <img class="slider-comments__button slider-comments__button_next" src="./images/Arrow-next.svg"
-            alt="Вперед" />
-        </div>
-      </div>
-      <div class="swiper">
-        <div class="swiper-pagination"></div>
-        <ul class="swiper-wrapper">
-          <li class="swiper-slide">
-            <p class="swiper-slide__text">
-              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
-              про коня Боджэка возникает — я думаю, и пьеса написана с этой
-              интонацией американских взрослых мультсериалов. И как хорошо все
-              это с куклой-носочком. Так все чисто сделано!
-            </p>
-            <h3 class="swiper-slide__author">Наталья Зайцева</h3>
-          </li>
-          <li class="swiper-slide">
-            <p class="swiper-slide__text">
-              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
-              про коня Боджэка возникает — я думаю, и пьеса написана с этой
-              интонацией американских взрослых мультсериалов. И как хорошо все
-              это с куклой-носочком. Так все чисто сделано!
-            </p>
-            <h3 class="swiper-slide__author">Ашот</h3>
-          </li>
-          <li class="swiper-slide">
-            <p class="swiper-slide__text">
-              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
-              про коня Боджэка возникает — я думаю, и пьеса написана с этой
-              интонацией американских взрослых мультсериалов. И как хорошо все
-              это с куклой-носочком. Так все чисто сделано!
-            </p>
-            <h3 class="swiper-slide__author">Сергеевич</h3>
-          </li>
-          <li class="swiper-slide">
-            <p class="swiper-slide__text">
-              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
-              про коня Боджэка возникает — я думаю, и пьеса написана с этой
-              интонацией американских взрослых мультсериалов. И как хорошо все
-              это с куклой-носочком. Так все чисто сделано!
-            </p>
-            <h3 class="swiper-slide__author">Петрович</h3>
-          </li>
-        </ul>
-      </div>
+    <section class="comments">
     </section>
     <!-- секция 6-->
     <section class="social-media">

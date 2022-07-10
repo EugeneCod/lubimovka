@@ -1,13 +1,15 @@
 .slider__text {
-  max-height: 756px;
-  font-family: 'FormularLight';
+  font-family: 'FormularLight', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.4;
+  color: #242424;
+  margin: 0 0 30px;
   letter-spacing: -0.01em;
-  padding-left: 3px;
-  padding-right: 23px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 27;
+  -webkit-box-orient: vertical;  
   overflow: hidden;
-  text-overflow: clip;
 }

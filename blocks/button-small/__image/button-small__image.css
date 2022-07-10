@@ -1,0 +1,4 @@
+.button-small__image {
+  filter: invert(0%);
+  transition: filter .3s;
+}

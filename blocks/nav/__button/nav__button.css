@@ -6,7 +6,7 @@
   font-family: 'FormularLight';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   color: #242424;
   cursor: pointer;
   display: flex;
@@ -15,13 +15,17 @@
   transition: 0.3s linear;
 }
 
-.nav__button:hover,
-.nav__button:focus {
-  transform: scale(1.1);
+.nav__button:hover {
+  opacity: .7;
 }
+
+.nav__button:active {
+  opacity: .5;
+}
+
 
 @media screen and (min-width: 1100px) {
   .nav__button {
-    font-size: 14px;
+    margin-right: 20px;
   }
 }

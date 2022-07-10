@@ -1,0 +1,17 @@
+.slider__title {
+  font-family: 'Neue Machina', Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 1.1428;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #242424;
+  margin: 0;
+  align-self: center;
+}
+
+@media (min-width: 769px) {
+  .slider__title {
+    font-size: 40px;
+    line-height: 1;
+  }
+}

@@ -1,0 +1,7 @@
+.slider__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 118px;
+  justify-self: end;
+}

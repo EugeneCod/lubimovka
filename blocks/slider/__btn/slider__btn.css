@@ -1,0 +1,22 @@
+.slider__btn {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+}
+
+.slider__btn:hover .slider__btn-circle {
+  stroke-dashoffset: 0;
+  fill: #242424;
+}
+
+.slider__btn:hover .slider__btn-arrow {
+  filter: invert(100%) ;
+}
+
+.slider__btn:active .slider__btn-circle{
+  stroke-width: 4px;
+}
