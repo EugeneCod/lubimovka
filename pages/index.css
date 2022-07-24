@@ -46,7 +46,8 @@
 @import url(../blocks/description-the-play/__text-block/description-the-play__text-block.css);
 @import url(../blocks/description-the-play/__subtitle/description-the-play__subtitle.css);
 @import url(../blocks/description-the-play/__card/description-the-play__card.css);
-@import url(../blocks/description-the-play/__card-content/description-the-play__card-content.css);
+@import url(../blocks/description-the-play/__card-top/description-the-play__card-top.css);
+@import url(../blocks/description-the-play/__card-bottom/description-the-play__card-bottom.css);
 @import url(../blocks/description-the-play/__card-name/description-the-play__card-name.css);
 @import url(../blocks/description-the-play/__author-name/description-the-play__author-name.css);
 @import url(../blocks/description-the-play/__info/description-the-play__info.css);
@@ -76,12 +77,20 @@
 @import url(../blocks/gallery/__items/gallery__items.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 
-@import url(../blocks/title-h6/title-h6.css);
-/* @import url(../blocks/button/button.css); */
-
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__link/reviews__link.css);
+@import url(../blocks/reviews/__logo-heading/reviews__logo-heading.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__text/_offset/reviews__text_offset.css);
+
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__author/comments__author.css);
+@import url(../blocks/comments/__text/comments__text.css);
+@import url(../blocks/comments/__text/_offset/comments__text_offset.css);
 
 @import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/_place/slider_place_comments.css);
+@import url(../blocks/slider/_place/slider_place_reviews.css);
 @import url(../blocks/slider/__btn-arrow/slider__btn-arrow.css);
 @import url(../blocks/slider/__btn-circle/slider__btn-circle.css);
 @import url(../blocks/slider/__btn-circle/_left/slider__btn-circle_left.css);
@@ -96,14 +105,11 @@
 @import url(../blocks/slider/__top-row/slider__top-row.css);
 @import url(../blocks/slider/__title/slider__title.css);
 @import url(../blocks/slider/__track/slider__track.css);
+@import url(../blocks/slider/__track/_place/slider__track_place_comments.css);
 @import url(../blocks/slider/__item/slider__item.css);
-@import url(../blocks/slider/__item/_offset/slider__item_offset.css);
-@import url(../blocks/slider/__logo-heading/slider__logo-heading.css);
-@import url(../blocks/slider/__text/slider__text.css);
-@import url(../blocks/slider/__text/_concise/slider__text_concise.css);
-@import url(../blocks/slider/__link/slider__link.css);
-
-
+@import url(../blocks/slider/__item/_place/slider__item_place_comments.css);
+@import url(../blocks/slider/__item/_offset/slider__item_offset-comments.css);
+@import url(../blocks/slider/__item/_offset/slider__item_offset-reviews.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__main/footer__main.css);

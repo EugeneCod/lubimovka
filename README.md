@@ -13,8 +13,3 @@
 * Nested БЭМ
 * Основы JavaScript (ES6)
 * Адаптивная верстка
-* Работа с Figma (pixel-perfect верстка)
-
-## Ссылка на проект:
-https://DizZer0.github.io/lubimovka/
-

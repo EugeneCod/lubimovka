@@ -1,0 +1,11 @@
+.slider_place_comments {
+  align-items: initial;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (min-width: 769px) {
+  .slider_place_comments {
+    align-items: initial;
+  }
+}

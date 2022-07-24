@@ -1,4 +1,4 @@
-.description-the-play__card-content {
+.description-the-play__card-top {
     background-color: #B7C09D;
     max-width: 244px;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .description-the-play__card-content {
+    .description-the-play__card-top {
         max-width: 240px;
     }
 }

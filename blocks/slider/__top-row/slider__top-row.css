@@ -9,6 +9,7 @@
   max-width: 718px;
   position: relative;
   box-sizing: border-box;
+  align-self: center;
 }
 
 @media (min-width: 769px) {

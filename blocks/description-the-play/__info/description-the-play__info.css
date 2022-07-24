@@ -1,5 +1,6 @@
 .description-the-play__info {
-    margin: 8px 0 0;
+    margin: 0;
+    padding-top: 8px;
     font-family: 'Formular', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -9,5 +10,5 @@
 }
 
 .description-the-play__info:nth-child(2n) {
-    margin: 0;
+    padding: 0;
 }

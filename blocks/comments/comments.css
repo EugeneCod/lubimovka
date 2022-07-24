@@ -1,8 +1,10 @@
-.reviews {
+.comments {
+  padding-top: 76px;
+  padding-left: 0;
+  padding-right: 0;
   background-color: #ECEBE8;
   max-width: 1440px;
   min-width: 320px;
-  padding-top: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -11,7 +13,9 @@
 }
 
 @media (min-width: 769px) {
-  .reviews {
-    padding-top: 150px;
+  .comments {
+    padding-top: 116px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }

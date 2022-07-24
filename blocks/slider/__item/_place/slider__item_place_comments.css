@@ -1,0 +1,12 @@
+.slider__item_place_comments {
+  padding: 72px 30px 24px;
+  max-width: 420px;
+  height: 476px;
+}
+
+@media (min-width: 769px) {
+  .slider__item_place_comments {
+    height: 361px;
+    padding-top: 33px
+  }
+}
